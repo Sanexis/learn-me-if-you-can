@@ -289,3 +289,83 @@ body{
         visibility: hidden;
     }
   }
+
+
+  .js-egg{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    animation: js 5s  infinite;
+    animation-timing-function: steps(1);
+}
+
+@keyframes js {
+    0% {
+        top: 165px;
+        right: 35px;
+        rotate: -45deg;
+    }
+    20%{
+        top: 170px;
+        right: 50px;
+        rotate: -90deg;
+    }
+    40%{
+        top: 175px;
+        right: 63px;
+        rotate: -135deg;
+    }
+    60%{
+        top: 183px;
+        right: 80px;
+        rotate: -180deg;
+    }
+    80%{
+        top: 208px;
+        right: 100px;
+        rotate: -225deg;
+    }
+    90%{
+        visibility: hidden;
+    }
+  }  
+
+
+  .sass-egg{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    animation: sass 5s  infinite;
+    animation-timing-function: steps(1);
+}
+
+@keyframes sass {
+    0% {
+        top: 87px;
+        right: 35px;
+        rotate: -100deg;
+    }
+    20%{
+        top: 98px;
+        right: 50px;
+        rotate: -145deg;
+    }
+    40%{
+        top: 110px;
+        right: 63px;
+        rotate: -180deg;
+    }
+    60%{
+        top: 120px;
+        right: 80px;
+        rotate: -225deg;
+    }
+    80%{
+        top: 135px;
+        right: 100px;
+        rotate: -270deg;
+    }
+    90%{
+        visibility: hidden;
+    }
+  }
