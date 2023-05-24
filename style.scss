@@ -212,15 +212,15 @@ body{
     }
 }
 
-.html5-egg{
+.upeer-left-egg{
     width: 25px;
     height: 25px;
     position: absolute;
-    animation: html5 5s  infinite;
+    animation: upeer-left-egg 5s  infinite;
     animation-timing-function: steps(1);
 }
 
-@keyframes html5 {
+@keyframes upeer-left-egg {
     0% {
         top: 87px;
         left: 35px;
@@ -251,15 +251,15 @@ body{
     }
   }
 
-.css3-egg{
+.lower-left-egg{
     width: 25px;
     height: 25px;
     position: absolute;
-    animation: css3 5s  infinite;
+    animation: lower-left-egg 5s  infinite;
     animation-timing-function: steps(1);
 }
 
-@keyframes css3 {
+@keyframes lower-left-egg {
     0% {
         top: 167px;
         left: 35px;
@@ -291,15 +291,15 @@ body{
   }
 
 
-  .js-egg{
+  .lower-right-egg{
     width: 25px;
     height: 25px;
     position: absolute;
-    animation: js 5s  infinite;
+    animation: lower-right-egg 5s  infinite;
     animation-timing-function: steps(1);
 }
 
-@keyframes js {
+@keyframes lower-right-egg {
     0% {
         top: 165px;
         right: 35px;
@@ -331,15 +331,15 @@ body{
   }  
 
 
-  .sass-egg{
+  .upper-right-egg{
     width: 25px;
     height: 25px;
     position: absolute;
-    animation: sass 5s  infinite;
+    animation: upper-right-egg 5s infinite;
     animation-timing-function: steps(1);
 }
 
-@keyframes sass {
+@keyframes upper-right-egg {
     0% {
         top: 87px;
         right: 35px;
